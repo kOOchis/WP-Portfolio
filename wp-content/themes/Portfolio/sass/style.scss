@@ -7,6 +7,13 @@
 @import "base/normalize";
 @import "base/font_style";
 @import "base/charte_graphique";
- 
+
+// Layouts
+@import "layouts/body";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/page";
+@import "layouts/sidebar";
+
 // States 
 @import "states/media_queries";

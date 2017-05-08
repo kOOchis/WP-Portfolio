@@ -14,6 +14,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

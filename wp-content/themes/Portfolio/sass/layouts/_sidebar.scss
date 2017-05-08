@@ -1,0 +1,92 @@
+#l-sidebar{
+	position:relative;
+	
+	left:-190px;
+
+	width:200px;
+	min-height: 100vh;
+	text-align:center;
+	background:$orange-claire;
+
+	-webkit-box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+	box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+
+	-webkit-transition: left 0.6s;
+  	transition: left 0.6s;
+
+	.l-hamburger{
+		position:absolute;
+		right:-55px;
+		top:15px;
+		
+		height: 40px;
+		width: 40px;
+
+		border-radius:100%;
+
+		background:$bleu;
+		color:white;
+
+		-webkit-box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+		box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+
+		a{
+			display: block;
+			padding: 8.5px;
+		}
+	}
+
+	.l-logoSidebar{
+		border-bottom:1px solid $orange-claire;
+		padding:2rem;
+		background:white;
+		height: 87px;
+	}
+	
+	img{
+		width: 120px;
+	}
+
+
+	.menu{
+		margin:0;
+		padding:0;
+		background: $orange;
+		li{
+			list-style: none;
+			border-bottom:1px solid $orange-claire;
+		}
+
+		a{
+			display: block;
+			text-decoration: none;
+			color:white;
+			padding:1rem;
+		}
+
+		a:hover{
+			background:$orange-fonce;
+		}
+		a:active{
+			background:$orange-claire;
+		}
+	}
+
+	.l-followSocial{
+		a{
+			display: block;
+			padding:1rem 0;
+			color:white;
+		}
+		.linkedin, .twitter{
+			width: 50%;
+			float: left;
+		}
+		.linkedin{
+			background:$bleu;
+		}
+		.twitter{
+			background: $bleu-fonce;
+		}
+	}
+}

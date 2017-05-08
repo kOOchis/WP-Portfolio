@@ -478,33 +478,80 @@ a {
   font-size: 1.4rem;
 }
 
-@typo :#333232;
-@media only screen and (min-width: 1024px) {
-  .l-sidebar {
-    background: blue;
-  }
+body {
+  background: #F5F6F7;
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .l-sidebar {
-    background: green;
-  }
+
+#l-sidebar {
+  position: relative;
+  left: -190px;
+  width: 200px;
+  min-height: 100vh;
+  text-align: center;
+  background: #ff966b;
+  -webkit-box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+  box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+  -webkit-transition: left 0.6s;
+  transition: left 0.6s;
 }
-@media only screen and (max-width: 767px) {
-  .l-sidebar {
-    border: 2px solid red;
-    width: 300px;
-    min-height: 100vh;
-  }
-  .l-sidebar .menu {
-    margin: 0;
-    padding: 0;
-  }
-  .l-sidebar .menu li {
-    list-style: none;
-    padding: 1rem;
-    border-bottom: 1px solid black;
-  }
-  .l-sidebar .menu a {
-    text-decoration: none;
-  }
+#l-sidebar .l-hamburger {
+  position: absolute;
+  right: -55px;
+  top: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: #5D89A9;
+  color: white;
+  -webkit-box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+  box-shadow: 1px 1px 6px 2px rgba(100, 100, 100, 0.3);
+}
+#l-sidebar .l-hamburger a {
+  display: block;
+  padding: 8.5px;
+}
+#l-sidebar .l-logoSidebar {
+  border-bottom: 1px solid #ff966b;
+  padding: 2rem;
+  background: white;
+  height: 87px;
+}
+#l-sidebar img {
+  width: 120px;
+}
+#l-sidebar .menu {
+  margin: 0;
+  padding: 0;
+  background: #F18558;
+}
+#l-sidebar .menu li {
+  list-style: none;
+  border-bottom: 1px solid #ff966b;
+}
+#l-sidebar .menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+#l-sidebar .menu a:hover {
+  background: #DB784F;
+}
+#l-sidebar .menu a:active {
+  background: #ff966b;
+}
+#l-sidebar .l-followSocial a {
+  display: block;
+  padding: 1rem 0;
+  color: white;
+}
+#l-sidebar .l-followSocial .linkedin, #l-sidebar .l-followSocial .twitter {
+  width: 50%;
+  float: left;
+}
+#l-sidebar .l-followSocial .linkedin {
+  background: #5D89A9;
+}
+#l-sidebar .l-followSocial .twitter {
+  background: #49799C;
 }
