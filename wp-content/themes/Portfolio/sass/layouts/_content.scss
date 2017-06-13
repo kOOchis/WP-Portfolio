@@ -1,0 +1,105 @@
+.P-H-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.P-H-main {
+  flex: 1 100%;
+  background: $fond;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start; //align-items: flex-start;
+  padding: 0.5rem;
+}
+
+.C-search {
+  width: 100%;
+  input {
+    width: 55%;
+    margin: 0.5rem;
+    height: 45px;
+    padding: 1rem;
+  }
+  input:focus {
+    outline: none;
+  }
+  select {
+    width: 40%;
+    margin: 0.5rem;
+    height: 45px;
+  }
+  select:focus {
+    outline: none;
+  }
+}
+
+.C-card {
+  background: $white;
+  margin: 0.5rem;
+  display: block;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+  .C-cardTop {
+    img {
+      width: 100%;
+    }
+  }
+  .C-cardBottom {
+    padding: 1rem;
+    position: relative;
+    h3 {
+      color: $black;
+    }
+    p {
+      color: $red;
+      span {
+        color: $black;
+      }
+    }
+    .C-wrapPins {
+      list-style: none;
+      margin: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      justify-content: flex-start;
+      position: absolute;
+      top: -32px;
+      right: 0;
+      .C-pins {
+        display: block;
+        margin-right: 1em;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $black;
+      }
+    }
+  }
+}
+
+.C-card:hover {
+  box-shadow: 0 0px 12px 2px rgba(150, 150, 150, 0.4);
+  transform: translateY(2px) scale(1.009);
+}

@@ -1,19 +1,26 @@
-@import "compass";
- 
-@import "vars";
-@import "theme_info";
- 
-// Base 
+//Compass
+@import "compass/css3";
+
+// Information du theme
+@import "themes/vars";
+@import "themes/themeInfo";
+
+// Reset
 @import "base/normalize";
-@import "base/font_style";
-@import "base/charte_graphique";
+
+// Helpers
+@import "base/helpers";
+
+// Charte Graphique
+@import "base/charteGraphique";
 
 // Layouts
-@import "layouts/body";
-@import "layouts/footer";
 @import "layouts/header";
-@import "layouts/page";
+@import "layouts/content";
+@import "layouts/navigation";
 @import "layouts/sidebar";
+@import "layouts/footer";
 
-// States 
-@import "states/media_queries";
+//Import style MediaQueries
+@import "states/desktop";
+@import "states/mobile";

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px');
+
+$black : #607D8B;
+$red : #E94949;
+$arkeron :#E94949;
+$seb : #05AFF2;
+$white : white;
+$fond : #F5F6F7;
+$Js : #F7DF1E;
+$Ps : #00C8FF;
+$Ai : #FF7C00;
+
+.C-Arkeron{
+   background: $arkeron;
+}
+.C-borderArkeron{
+    border-top:4px solid $arkeron;
+
+}
+
+.C-Sebastien{
+   background: $seb;
+}
+
+.C-borderSebastien{
+    border-top:4px solid $seb;
+}
+
+.Ch-G-Js{
+    background: $Js;
+}
+
+.Ch-G-Ai{
+    background: $Ai;
+}
+
+.Ch-G-Ps{
+    background: $Ps;
+}
+
+body{
+    background: $fond;
+}
+
+h1{
+    color:$black;
+    font-family: 'Slabo 27px', serif;
+    text-transform: uppercase;
+    span{
+        color:$red;
+    }
+}
+
+h2, h3, p, a {
+    font-family: 'PT Sans', sans-serif;
+    color:$black;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a:hover{
+    transition:0.3s;
+}

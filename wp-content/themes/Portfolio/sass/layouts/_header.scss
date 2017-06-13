@@ -1,0 +1,27 @@
+.P-H-header {
+  flex: 1 100%;
+  padding: 1rem;
+  background: $white;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: center;
+  z-index: 2;
+  .H-logo {
+    height: 4.5rem;
+    margin-right: 1rem;
+  }
+  .H-baseline {
+    h1{
+      font-size: 3rem;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

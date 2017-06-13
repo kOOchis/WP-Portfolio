@@ -1,3 +1,17 @@
-.l-sidebar{
-	
-}
+@media all and (min-width: 800px) {
+  .P-H-main {
+    flex: 5 0px;
+  }
+  .P-H-header{
+    display: none;
+  }
+  .S-sidebar-1 {
+    order: 1;
+  }
+  .P-H-main {
+    order: 2;
+  }
+  .C-card{
+      width: 23%;
+  }
+}   

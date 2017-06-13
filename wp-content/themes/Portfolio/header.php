@@ -23,7 +23,15 @@
     <?php wp_head(); ?>
 	</head>
 
-  <body <?php body_class(); ?>>
+<body>
+  <div class="P-H-wrapper ">
+    <header class="P-H-header">
+      <div class="H-baseline">
+        <h1>
+          <span>Code</span> genius
+        </h1>
+      </div>
+    </header>
 
   
 
